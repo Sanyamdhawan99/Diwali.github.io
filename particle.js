@@ -10,7 +10,7 @@ function Particle(x, y, hu, firework) {
 	else {
 		//this.velocity = createVector(random(-27, -20),random(-27, -20));
 		this.velocity = p5.Vector.random2D();
-		this.velocity.mult(random(4, 10));
+		this.velocity.mult(random(2, 8));
 	}
 	this.acceleration = createVector(0,0);
 

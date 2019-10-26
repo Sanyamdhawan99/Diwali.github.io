@@ -21,8 +21,8 @@ body{
     width: 24em;
     margin: 0 auto;
     padding-left: 10%;
-    border-right: 2% solid rgba(255,255,255,.75);
-    font-size: 90%;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 75%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;

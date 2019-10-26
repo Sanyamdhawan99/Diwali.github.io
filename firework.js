@@ -1,7 +1,7 @@
 function Firework() {
 
   this.hu = random(255);
-  this.firework = new Particle(random(width), height, this.hu, true);
+  this.firework = new Particle(random(width), height-10, this.hu, true);
   this.exploded = false;
   this.particles = [];
 
