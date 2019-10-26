@@ -2,19 +2,19 @@ var fireworks = [];
 var gravity;
 	
 function setup() {
-	createCanvas(window.innerWidth, window.innerHeight);
+	createCanvas(window.innerWidth, window.innerHeight-20%);
 	colorMode(HSB);
 	gravity = createVector(0, 0.2);
 	stroke(255);
-	strokeWeight(3.5);
+	strokeWeight(8);
 	background(0);	
 }
 
 function draw() {
 	colorMode(RGB);
 	background(0, 0, 0, 25);
-	// every frame there is a 2.5% chance of making a new firework
-	if(random(1) < 0.025) {
+	// every frame there is a 3% chance of making a new firework
+	if(random(1) < 0.06) {
 		fireworks.push(new Firework());
 	}
 	for(var i = fireworks.length - 1; i >= 0; i--) {
