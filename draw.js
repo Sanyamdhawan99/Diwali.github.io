@@ -6,7 +6,7 @@ function setup() {
 	colorMode(HSB);
 	gravity = createVector(0, 0.2);
 	stroke(255);
-	strokeWeight(8);
+	strokeWeight(5);
 	background(0);	
 }
 
@@ -14,7 +14,7 @@ function draw() {
 	colorMode(RGB);
 	background(0, 0, 0, 25);
 	// every frame there is a 3% chance of making a new firework
-	if(random(1) < 0.06) {
+	if(random(1) < 0.04) {
 		fireworks.push(new Firework());
 	}
 	for(var i = fireworks.length - 1; i >= 0; i--) {
