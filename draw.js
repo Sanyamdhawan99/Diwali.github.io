@@ -13,8 +13,8 @@ function setup() {
 function draw() {
 	colorMode(RGB);
 	background(0, 0, 0, 25);
-	// every frame there is a 3% chance of making a new firework
-	if(random(1) < 0.04) {
+	// every frame there is a 2% chance of making a new firework
+	if(random(1) < 0.02) {
 		fireworks.push(new Firework());
 	}
 	for(var i = fireworks.length - 1; i >= 0; i--) {
