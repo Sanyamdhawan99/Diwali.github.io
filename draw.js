@@ -6,7 +6,7 @@ function setup() {
 	colorMode(HSB);
 	gravity = createVector(0, 0.2);
 	stroke(255);
-	strokeWeight(5);
+	strokeWeight(3.5);
 	background(0);	
 }
 
