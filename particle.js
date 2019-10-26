@@ -21,7 +21,7 @@ function Particle(x, y, hu, firework) {
 
 	this.update = function() {
 		if(!this.firework) {
-			this.velocity.mult(0.75);
+			this.velocity.mult(0.9);
 			this.lifespan -= 4;
 		}
 
