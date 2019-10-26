@@ -4,6 +4,7 @@
 /* Global */
 html{
   min-height: 100%;
+  min-width: 100%;
   overflow: hidden;
 }
 body{
@@ -13,17 +14,17 @@ body{
   font-family: 'Anonymous Pro', monospace;  
   background-color: #000;  
 }
+
 .line-1{
     position: relative;
-    top: 10%;  
+    top: 100%;  
     width: 24em;
     margin: 0 auto;
-    padding-left: 10px;
-    border-right: 2px solid rgba(255,255,255,.75);
+    padding-left: 10%;
+    border-right: 2% solid rgba(255,255,255,.75);
     font-size: 90%;
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    transform: translateY(-50%);    
+    transform: translateY(-50%);   
 }
-        

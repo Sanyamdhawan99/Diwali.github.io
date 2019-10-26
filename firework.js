@@ -39,8 +39,8 @@ function Firework() {
 
   this.explode = function() {
     for(var i = 0; i < 100; i++) {
-      var x = 16 * pow(sin(i), 3);
-      var y = 13 * cos(i) - 5 * cos(2 * i) - 2 * cos(3 * i) - cos(4 * i);
+      var x = 16 * Math.pow(Math.sin(i), 3);
+      var y = -(13 * Math.cos(i) - 5 * Math.cos(2 * i) - 2 * Math.cos(3 * i) - Math.cos(4 * i));
       var p = new Particle(this.firework.position.x, this.firework.position.y, this.hu, false);
       this.particles.push(p);
     }
